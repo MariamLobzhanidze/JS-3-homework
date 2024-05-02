@@ -52,4 +52,26 @@ let k=0;
  
  console.log(emptyArray2);
 
+
+  //  homework 5
+
+  const sumArray = [15, 70, 2024, 146, 687];
  
+  let sum = 0;
+ 
+  for (let s = 0; s < sumArray.length; s++) {
+     sum = sum + sumArray[s];
+  }
+  
+  console.log(sum);
+ 
+ 
+ //  homework 6
+ 
+ for (let number = 8; number < 13; number++) {
+     if (number ) {
+         console.log(false)
+     } else {
+         console.log(true)
+     }
+ };
