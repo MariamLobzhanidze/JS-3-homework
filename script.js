@@ -88,3 +88,37 @@ for (let y = 0; y < carArray.length; y++) {
         console.log(`${brands} has more than 6 letter.`)
     } ;
 };
+
+// homework 8
+
+const multiNumberArray = [4, 5, 6, 7, 8, 10, 11, 14, 19, 21, 24, 38, 42, 56, 68, 84];
+
+function sortEvenNumbers(num) {
+    for (let k = 2; num > k; k++) {
+        if (num % k === 0) {
+            return true;
+
+        } else {
+            return 0;
+
+        }
+    };
+};
+
+console.log(multiNumberArray.filter(sortEvenNumbers));
+
+
+
+function sortOddNumbers(num) {
+    for (let k = 2; num > k; k++) {
+        if (num % k !== 0) {
+            return true;
+
+        } else {
+            return 0;
+
+        }
+    };   
+};
+
+console.log(multiNumberArray.filter(sortOddNumbers));
