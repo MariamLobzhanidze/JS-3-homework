@@ -75,3 +75,16 @@ let k=0;
          console.log(true)
      }
  };
+
+ // homework 7
+
+let carArray = ["TOYOTA", "MerCedES", "PorsCHE", "Alfa-romeo", "Ferrari"];
+
+for (let y = 0; y < carArray.length; y++) {
+    const brands = carArray[y];
+    if (brands.length < 6) {
+        console.log(brands.toUpperCase())
+    } else {
+        console.log(`${brands} has more than 6 letter.`)
+    } ;
+};
